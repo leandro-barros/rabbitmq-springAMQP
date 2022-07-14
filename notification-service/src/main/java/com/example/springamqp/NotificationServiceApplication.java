@@ -1,4 +1,4 @@
-package com.example.springamqp.notificationservice;
+package com.example.springamqp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

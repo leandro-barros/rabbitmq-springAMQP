@@ -1,4 +1,4 @@
-package com.example.springamqp.notificationservice;
+package com.example.springamqp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
