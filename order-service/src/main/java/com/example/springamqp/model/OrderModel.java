@@ -31,12 +31,16 @@ public class OrderModel {
         this.value = value;
     }
 
-    public Boolean getPaid() {
+    public boolean isPaid() {
         return paid;
     }
 
-    public void setPaid(Boolean paid) {
+    public void setPaid(boolean paid) {
         this.paid = paid;
+    }
+
+    public void markAsPaid() {
+        this.paid = true;
     }
 
 }
