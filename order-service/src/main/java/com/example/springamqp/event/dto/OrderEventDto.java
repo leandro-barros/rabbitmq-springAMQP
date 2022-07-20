@@ -1,18 +1,18 @@
-package com.example.springamqp.producer.dto;
+package com.example.springamqp.event.dto;
 
 import java.math.BigDecimal;
 
-public class OrderEvent {
+public class OrderEventDto {
 
     private Long id;
 
     private BigDecimal value;
 
-    public OrderEvent() {
+    public OrderEventDto() {
 
     }
 
-    public OrderEvent(Long id, BigDecimal value) {
+    public OrderEventDto(Long id, BigDecimal value) {
         this.id = id;
         this.value = value;
     }
