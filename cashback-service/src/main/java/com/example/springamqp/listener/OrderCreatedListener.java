@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 public class OrderCreatedListener {
 
     @RabbitListener(queues = "${queue-order-created}")
-    public void onOrderCreated(String message) {
-        System.out.println("Message received: " +  message);
+    public void onOrderCreated(Long id) {
+        System.out.println("Message received: " + id);
     }
 
 }
