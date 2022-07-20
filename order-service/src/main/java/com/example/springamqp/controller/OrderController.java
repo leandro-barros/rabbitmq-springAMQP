@@ -2,6 +2,7 @@ package com.example.springamqp.controller;
 
 import com.example.springamqp.model.OrderModel;
 import com.example.springamqp.repository.OrderRepository;
+import com.example.springamqp.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,10 +15,12 @@ public class OrderController {
     @Autowired
     private OrderRepository orders;
 
+    @Autowired
+    private OrderService orderService;
+
     @PostMapping
     public OrderModel create(@RequestBody OrderModel order) {
-        orders.save(order);
-
+        orderService.save(order);
         return order;
     }
 
