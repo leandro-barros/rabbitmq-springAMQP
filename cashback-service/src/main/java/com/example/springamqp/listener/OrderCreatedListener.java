@@ -1,5 +1,6 @@
 package com.example.springamqp.listener;
 
+import com.example.springamqp.listener.dto.OrderListenerDto;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
@@ -7,8 +8,8 @@ import org.springframework.stereotype.Component;
 public class OrderCreatedListener {
 
     @RabbitListener(queues = "${queue-order-created}")
-    public void onOrderCreated(Long id) {
-        System.out.println("Message received: " + id);
+    public void onOrderCreated(OrderListenerDto orderListenerDto) {
+        System.out.println("Order received: " + orderListenerDto.getId());
     }
 
 }
