@@ -14,5 +14,4 @@ spring:
     username: rabbitmq
     password: rabbitmq
 
-queue:
-    order-created: orders.v1.order-created
+queue.order-created: orders.v1.order-created

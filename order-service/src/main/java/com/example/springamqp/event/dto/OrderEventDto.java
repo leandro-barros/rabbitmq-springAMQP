@@ -1,8 +1,11 @@
 package com.example.springamqp.event.dto;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class OrderEventDto {
+public class OrderEventDto implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private Long id;
 
