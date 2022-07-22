@@ -12,8 +12,8 @@ public class OrderEvent {
     private RabbitTemplate rabbitTemplate;
 
     public void sendMessage(OrderEventDto orderEventDto) {
-        String routingKey = "orders.v1.order-created";
-        rabbitTemplate.convertAndSend(routingKey, orderEventDto);
+        rabbitTemplate.convertAndSend("orders.v1.order-created.generate-cashback", orderEventDto);
+        rabbitTemplate.convertAndSend("orders.v1.order-created.send-notification", orderEventDto);
     }
 
 }
