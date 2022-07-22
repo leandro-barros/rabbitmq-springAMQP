@@ -14,8 +14,13 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
 
     @Bean
-    public Queue queue() {
-        return new Queue("orders.v1.order-created");
+    public Queue queueCashback() {
+        return new Queue("orders.v1.order-created.generate-cashback");
+    }
+
+    @Bean
+    public Queue queueNotification() {
+        return new Queue("orders.v1.order-created.send-notification");
     }
 
     @Bean
