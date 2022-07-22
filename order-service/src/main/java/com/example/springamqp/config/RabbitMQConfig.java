@@ -15,7 +15,7 @@ public class RabbitMQConfig {
 
     @Bean
     public Queue queue() {
-        return new Queue("${queue.order-created}");
+        return new Queue("orders.v1.order-created");
     }
 
     @Bean
