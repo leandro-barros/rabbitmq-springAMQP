@@ -20,11 +20,6 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public Queue queueCashback() {
-        return new Queue("orders.v1.order-created.generate-cashback");
-    }
-
-    @Bean
     public Queue queueNotification() {
         return new Queue("orders.v1.order-created.send-notification");
     }
