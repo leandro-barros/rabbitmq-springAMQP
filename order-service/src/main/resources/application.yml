@@ -13,5 +13,3 @@ spring:
     port: 5672
     username: rabbitmq
     password: rabbitmq
-
-queue.order-created: orders.v1.order-created
