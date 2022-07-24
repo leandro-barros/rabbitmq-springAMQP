@@ -20,11 +20,6 @@ public class RabbitMQConfig {
     }
 
     @Bean
-    public Queue queueNotification() {
-        return new Queue("orders.v1.order-created.send-notification");
-    }
-
-    @Bean
     public RabbitAdmin rabbitAdmin(ConnectionFactory connectionFactory) {
         return new RabbitAdmin(connectionFactory);
     }
