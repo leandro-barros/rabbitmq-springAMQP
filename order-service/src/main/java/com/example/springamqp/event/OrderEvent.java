@@ -16,6 +16,7 @@ public class OrderEvent {
     public void sendMessage(OrderEventDto orderEventDto) {
         rabbitTemplate.convertAndSend("orders.v1.order-created.generate-cashback", orderEventDto);
         rabbitTemplate.convertAndSend("orders.v1.order-created.send-notification", orderEventDto);
+        sendMessageExchange(orderEventDto);
     }
 
     public void sendMessageExchange(OrderEventDto orderEventDto) {
