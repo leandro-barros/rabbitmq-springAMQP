@@ -27,10 +27,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-  
-<a href="https://www.linkedin.com/in/leandroebarros/">
-https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
-<br />
+<div> 
+  <a href="https://www.linkedin.com/in/leandroebarros/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-   badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
+
   
 LinkedIn: [Leandro Barros](https://www.linkedin.com/in/leandroebarros/)
