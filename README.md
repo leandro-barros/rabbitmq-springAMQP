@@ -23,6 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [MySQL]()
 - [Maven]()
 - [Docker]()
+- [Docker Compose]()
 - [Lombok]()
 
 ---
