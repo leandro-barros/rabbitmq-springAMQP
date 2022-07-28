@@ -27,8 +27,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
+https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+  
 <a href="https://www.linkedin.com/in/leandroebarros/">
-<img src="./github/linkedin.png" alt="linkedin" height="30"></a>
+https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 <br />
-
+  
 LinkedIn: [Leandro Barros](https://www.linkedin.com/in/leandroebarros/)
