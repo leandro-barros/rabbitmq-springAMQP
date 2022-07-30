@@ -8,7 +8,7 @@ Criação de três microserviços que são: Pedido, notificação e Cash Back. E
 
 O serviço de Pedido dispara eventos produzindo mensagens para que os serviços de notificação e Cashback ouvem e consomem as mensagens.
 
-As mensagens foram enviadas utilizando Exchange e também diretamente para uma fila específica.
+As mensagens foram enviadas utilizando Exchange e também com comunicação direta entre filas.
 
 ### 🛠 Tecnologias
 
