@@ -10,6 +10,8 @@ O serviço de Pedido dispara eventos produzindo mensagens para que os serviços 
 
 As mensagens foram enviadas utilizando Exchange e também com comunicação direta entre filas.
 
+O RabbitMQ e o MySQL foram instalados através de contâener Docker.
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
