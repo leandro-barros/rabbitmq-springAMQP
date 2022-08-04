@@ -1,6 +1,12 @@
 <h1 style="text-align: center; font-weight: bold;">RabbitMQ com Spring AMQP</h1>
 
----
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<h4 align="center"> 
+	🚧  RabbitMQ com Spring AMQP ♻️ Concluído 🚀 🚧
+</h4>
 
 ## Sobre o projeto
 
@@ -13,13 +19,13 @@ As mensagens foram enviadas utilizando Exchange e também com comunicação dire
 
 O RabbitMQ e o MySQL foram instalados através de contâener Docker.
 
-### Pré-requisitos
+## Pré-requisitos
 
 Para executar os projetos vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) e [Docker](https://docs.docker.com/desktop/install/windows-install/). 
 Além disto é bom ter um editor para trabalhar com o código como [Intellij](https://www.jetbrains.com/pt-br/idea/).
 
-### 🎲 Executando as APIs Rest
+## 🎲 Executando o projeto
 
 ```bash
 # Clone este repositório
@@ -33,7 +39,7 @@ $ git clone <https://github.com/leandro-barros/rabbitmq-springAMQP.git>
   $ 8082 para o NotificationService
 ```
 
-### 🛠 Tecnologias
+## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -49,8 +55,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker Compose]()
 - [Lombok]()
 
-### Autor
----
+## Autor
 
 <a href="https://www.linkedin.com/in/leandroebarros/">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/13985064?v=4" width="100px;" alt=""/>
@@ -58,13 +63,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <sub><b>Leandro Barros</b></sub></a> <a href="https://www.linkedin.com/in/leandroebarros/" title="leandro">🚀
 </a>
 
-
-👋 Entre em contato!
-
 [![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leandroebarros/)](https://www.linkedin.com/in/leandroebarros/) 
 [![Gmail Badge](https://img.shields.io/badge/-leandroedbarros@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leandroedbarros@gmail.com)](leandroedbarros@gmail.com)
-
----
 
 ## 📝 Licença
 
