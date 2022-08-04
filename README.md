@@ -49,11 +49,17 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Docker Compose]()
 - [Lombok]()
 
+### Autor
 ---
 
-<div> 
-  <a href="https://www.linkedin.com/in/leandroebarros/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-   badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
+<a href="https://www.linkedin.com/in/leandroebarros/">
+  <sub><b>Leandro Barros</b></sub></a> <a href="https://www.linkedin.com/in/leandroebarros/" title="leandro">🚀
+</a>
 
-  
-LinkedIn: [Leandro Barros](https://www.linkedin.com/in/leandroebarros/)
+
+By por Leandro Barros ❤️ 
+
+👋 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leandroebarros/)](https://www.linkedin.com/in/leandroebarros/) 
+[![Gmail Badge](https://img.shields.io/badge/-leandroedbarros@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leandroedbarros@gmail.com)](leandroedbarros@gmail.com)
