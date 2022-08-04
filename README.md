@@ -59,9 +59,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </a>
 
 
-By Leandro Barros ❤️ 
-
 👋 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Leandro-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/leandroebarros/)](https://www.linkedin.com/in/leandroebarros/) 
 [![Gmail Badge](https://img.shields.io/badge/-leandroedbarros@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:leandroedbarros@gmail.com)](leandroedbarros@gmail.com)
+
+---
+
+## 📝 Licença
+
+Projeto esta sobe a licença [MIT](./LICENSE).
+
+By Leandro Barros ❤️  [Entre em contato!](https://www.linkedin.com/in/leandroebarros/)
