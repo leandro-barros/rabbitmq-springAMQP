@@ -13,6 +13,26 @@ As mensagens foram enviadas utilizando Exchange e também com comunicação dire
 
 O RabbitMQ e o MySQL foram instalados através de contâener Docker.
 
+### Pré-requisitos
+
+Para executar os projetos vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) e [Docker](https://docs.docker.com/desktop/install/windows-install/). 
+Além disto é bom ter um editor para trabalhar com o código como [Intellij](https://www.jetbrains.com/pt-br/idea/).
+
+### 🎲 Executando as APIs Rest
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/leandro-barros/rabbitmq-springAMQP.git>
+
+# Na classe principal execute o projeto.
+
+# O servidor inciará na porta:
+  $ 8080 para OrderService
+  $ 8081 para o CashBachService
+  $ 8082 para o NotificationService
+```
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
