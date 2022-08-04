@@ -4,7 +4,8 @@
 
 ## Sobre o projeto
 
-Criação de três microserviços que são: Pedido, notificação e Cash Back. Essa arquitetura permitiu a prática de implementação de comunicação assícrona entre serviços através da mensageria RabbitMq.
+Criação de três microserviços que são: Pedido, notificação e Cash Back. 
+Esses projetos com arquitetura de microserviços permitiu praticar a implementação de comunicação assícrona entre serviços através da mensageria RabbitMQ.
 
 O serviço de Pedido dispara eventos produzindo mensagens para que os serviços de notificação e Cashback ouvem e consomem as mensagens.
 
