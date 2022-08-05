@@ -8,6 +8,10 @@
 	🚧  RabbitMQ com Spring AMQP ♻️ Concluído 🚀 🚧
 </h4>
 
+<p align="center">
+  <img alt="Demo on Netlify" src="./static/project.gif">
+</p>
+
 ## Sobre o projeto
 
 Criação de três microserviços que são: Pedido, notificação e Cash Back. 
