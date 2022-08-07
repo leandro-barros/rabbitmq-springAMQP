@@ -19,17 +19,24 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 
-
-
 <h4 align="center"> 
 	🚧  RabbitMQ com Spring AMQP ♻️ Concluído 🚀 🚧
 </h4>
 
 <p align="center">
+ <a href="#-sobre-o-projeto">Sobre o Projeto</a> •
+ <a href="#-executar-o-projeto">Executar Projeto</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#-licença">Licença</a>
+</p>
+
+
+<p align="center">
   <img alt="Demo on Netlify" src="./static/project.gif">
 </p>
 
-## Sobre o projeto
+## 💻 Sobre o projeto
 
 Criação de três microserviços que são: Pedido, notificação e Cash Back. 
 Esses projetos com arquitetura de microserviços permitiu praticar a implementação de comunicação assíncrona entre APIs REST através da mensageria RabbitMQ.
@@ -40,17 +47,26 @@ As mensagens foram enviadas utilizando Exchange e também com comunicação dire
 
 O RabbitMQ e o MySQL foram instalados utilizando o Docker.
 
-## Pré-requisitos
+## 🚀 Executar o projeto
 
-Para executar os projetos vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc) e [Docker](https://docs.docker.com/desktop/install/windows-install/). 
+Este projeto é uma API RESTful desenvolvida com Spring Boot, possuindo endpoints expostos para efetuar requisições.
+
+### Pré-requisitos
+
+Para executar o projeto precisa ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Java](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc), [Docker](https://docs.docker.com/desktop/install/windows-install/) e [Postman](https://www.postman.com/). 
 Além disto é bom ter um editor para trabalhar com o código como [Intellij](https://www.jetbrains.com/pt-br/idea/).
 
-## 🎲 Executando o projeto
+O Postman é para executar as requisições.
+
+#### 🧭 Rodando a API REST
 
 ```bash
 # Clone este repositório
 $ git clone <https://github.com/leandro-barros/rabbitmq-springAMQP.git>
+
+# Execute o contâiner Docker com Docker Compose
+$ docker-compose up
 
 # Na classe principal execute o projeto.
 
@@ -62,21 +78,20 @@ $ git clone <https://github.com/leandro-barros/rabbitmq-springAMQP.git>
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
-- [Java 11]()
-- [RabbitMQ]()
-- [Spring Boot]()
-- [Spring MVC]()
-- [Spring Data JPA]()
-- [Spring AMQP]()
-- [MySQL]()
-- [Maven]()
-- [Docker]()
-- [Docker Compose]()
-- [Lombok]()
+- [Java 11](https://aws.amazon.com/pt/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc)
+- [RabbitMQ](https://www.rabbitmq.com/#getstarted)
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring MVC](https://docs.spring.io/spring-framework/docs/current/reference/html/web.html)
+- [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+- [Spring AMQP](https://spring.io/projects/spring-amqp)
+- [MySQL](https://www.mysql.com/downloads/)
+- [Maven](https://maven.apache.org/)
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-## Autor
+## 👨‍💻 Autor
 
 <a href="https://www.linkedin.com/in/leandroebarros/">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/13985064?v=4" width="100px;" alt=""/>
